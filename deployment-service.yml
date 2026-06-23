@@ -14,7 +14,7 @@ spec:
         app: tetris
     spec:
       containers:
-      - name: newone
+      - name: cont1
         image: nginx
         ports:
         - containerPort: 80  # Use port 3000
